@@ -1,0 +1,4 @@
+# Contributors to Clove JS
+
+Tyson Decker
+	* Lead Programmer
