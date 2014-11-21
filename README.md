@@ -4,8 +4,8 @@ clove.js is a jQuery plugin that makes adding scrolling efects to web pages easy
 
 Usage
 ========
-To use clove include jQuery and clove.js in your webpage
-Apply the effect by selecting an object with jQuery and calling the clove method
+To use clove include jQuery and clove.js in your webpage and
+apply the effect by selecting an object with jQuery and calling the clove method
 
 ```
 $("#sample").clove();
