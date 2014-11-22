@@ -25,6 +25,7 @@ This overrides the range of values that the background position will be set to. 
 
 Attributes
 ========
+Any of the following attributes can be overriden.
 
 First Header | Second Header
 ------------ | ------------
