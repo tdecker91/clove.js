@@ -16,7 +16,7 @@ The default options may not be suitable for every instance and can be customized
 
 ```javascript
 $("#sample").clove({
-  min:0
+  min:0,
   max:1000
 });
 ```
