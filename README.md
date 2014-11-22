@@ -25,17 +25,17 @@ This overrides the range of values that the background position will be set to. 
 
 Attributes
 ========
-Any of the following attributes can be overriden.
-| Attribute  | Description |
-| ------------- | ------------- |
-| min  | lower bound for the range of css values  |
-| max  | upper bound for the range of css values  |
-| initialX  | Horizonal background position when dynamically changing vertical offset |
-| initialY  | Vertical background position when dynamically chaning horizonal offset  |
-| offsetUnit  | unit for the CSS attribute (ex... 'px', '%', 'pt') |
-| property  | the CSS property to change based on the scroll position |
-| scrollOffscreen  | boolean value. Whether or not the css attribute should change when the element is offscreen |
-| scaleFunction  | function that scales the scroll position of the screen inside a given the min and max offset |
-| thresholdFunction  | determines if the elements CSS should be altered. Defaults to only update the element CSS if the element is currently displayed on the screen |
-| easing  | Easing function. Can either be a name of a predefined easing function in easings.js, or a user defined easing function |
+
+First Header | Second Header
+------------ | ------------
+min  | lower bound for the range of css values
+max  | upper bound for the range of css values
+initialX | Horizonal background position when dynamically changing vertical offset
+initialY | Vertical background position when dynamically chaning horizonal offset
+offsetUnit | unit for the CSS attribute (ex... 'px', '%', 'pt')
+property | the CSS property to change based on the scroll position
+scrollOffscreen | boolean value. Whether or not the css attribute should change when the element is offscreen |
+scaleFunction | function that scales the scroll position of the screen inside a given the min and max offset |
+thresholdFunction | determines if the elements CSS should be altered. Defaults to only update the element CSS if the element is currently displayed on the screen
+easing | Easing function. Can either be a name of a predefined easing function in easings.js, or a user defined easing function
 
