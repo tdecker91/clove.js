@@ -7,6 +7,15 @@ Usage
 ========
 To use Clove, include jQuery and clove.js in your webpage and apply the effect by selecting an object with jQuery and calling the Clove method.
 
+For the plugin to work properly you need to specify a doctype. With no doctype tag the plugin will not work properly.
+
+```html
+<!DOCTYPE html>
+<html>
+...
+</html>
+```
+
 ```javascript
 $("#sample").clove();
 ```
