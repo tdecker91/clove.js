@@ -5,9 +5,7 @@ Clove is a jQuery plugin that makes it easy to add scrolling effects to web page
 
 Usage
 ========
-To use Clove, include jQuery and clove.js in your webpage and apply the effect by selecting an object with jQuery and calling the Clove method.
-
-For the plugin to work properly you need to specify a doctype. With no doctype tag the plugin will not work properly.
+For the plugin to work properly you need to specify a doctype. With no doctype tag the plugin will not work.
 
 ```html
 <!DOCTYPE html>
@@ -15,6 +13,8 @@ For the plugin to work properly you need to specify a doctype. With no doctype t
 ...
 </html>
 ```
+
+To use Clove, include jQuery and clove.js in your webpage and apply the effect by selecting an object with jQuery and calling the Clove method.
 
 ```javascript
 $("#sample").clove();
@@ -29,7 +29,7 @@ $("#sample").clove({
 });
 ```
 
-This overrides the range of values that the background position will be set to. When the scrollbar is at the top, the background position will be 0. When the scrollbar is at the bottom of the page, the background position of the element will be 100.
+This overrides the range of values that the background position will be set to. When the scrollbar is at the top, the background position will be 0. When the scrollbar is at the bottom of the page, the background position of the element will be 1000.
 
 Attributes
 ========
